@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Donors</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link id="favicon" rel="shortcut icon" href="img/images.jfif">
+    <script type="text/javascript" src="webcamjs-master/webcam.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+      box-shadow: -3px -3px 7px #00000073, 3px 3px 5px rgba(40, 43, 48, 0.288);
+    }
+    
+    /* Style the navigation menu */
+    nav {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #ccc;
+      padding: 100px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    /* Style the content */
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+    
+    /* Style the footer */
+    footer {
+        margin-bottom: 300px;
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+
+    .p3{
+      margin:0 4rem;
+    }
+    /* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+h1{
+  color:white;
+}
+    </style>
+</head>
+
+
+<body>
+    <input type="checkbox" id="check">
+
+    <!--header area start-->
+
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+
+        <div class="left_area">
+            <h3>Social<span>Donors</span></h3>
+        </div>
+        <div class="right_area">
+            <a href="admin.html" class="logout_btn">Log out</a>
+        </div>
+    </header>
+
+    <!--header area end-->
+
+    <!--sidebar start-->
+
+    <div class="sidebar">
+        <center>
+            <img src="img/pexels-katie-e-3671083.jpg" class="profile_image" alt="" width="100px" height="100px">
+            <h4>Jessica</h4>
+        </center>
+        <a href="index3.html"><i class="fas fa-desktop"></i> <span>Dashboard</span></a>
+        <a href="snap.html"><i class="fas fa-cogs"></i> <span>Components</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i>About<span></span></a>
+        <a href="settings.html"><i class="fas fa-sliders-h"></i> <span> Profile Settings</span></a>
+    </div>
+
+    <!--sidebar end-->
+<br><br><br>
+    <div class="content">
+        <header class="header1">
+          
+        </header><br><br><br><br>
+        <br>
+        <center><h1>Subscriptions</h1></center>
+            <div class="p3">
+              <table>
+                <tr>
+                  <th style="width:50%">Features</th>
+                  <th>Basic</th>
+                  <th>Pro</th>
+                </tr>
+                <tr>
+                  <td>Plan A</td>
+                  <td><i class="fa fa-remove"></i></td>
+                  <td><i class="fa fa-check"></i></td>
+                </tr>
+                <tr>
+                  <td>Plan B</td>
+                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-check"></i></td>
+                </tr>
+              </table>
+        </div>     
+    </div>
+
+</body>
+</html>

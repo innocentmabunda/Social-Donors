@@ -1,0 +1,14 @@
+.body4 {
+  background-color: rgb(189, 8, 8);
+}
+img {
+  border: 1px solid;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-color: white;
+}
+h2 {
+  color: white;
+}
